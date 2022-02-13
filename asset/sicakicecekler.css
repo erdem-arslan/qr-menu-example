@@ -1,0 +1,274 @@
+.btn-primary {
+    background-color: white;
+    border: none;
+}
+
+.btn-check:active+.btn-primary,
+.btn-check:checked+.btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+}
+
+.btn-check:active+.btn-primary,
+.btn-check:checked+.btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+}
+
+.btn-check:active+.btn-primary:focus,
+.btn-check:checked+.btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255);
+}
+
+header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.back-ico {
+    width: 20%;
+}
+
+.header-text {
+    width: 60%;
+}
+
+.randoms {
+    width: 20%;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.btn-primary {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+
+.btn-primary img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.main-wrapper {
+    width: 33%;
+    padding: 15px;
+}
+
+.images img {
+    width: 250px;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 0.3rem;
+    outline: 0;
+}
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+    display: flex;
+}
+
+.texts {
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* İPHONEXR */
+
+
+@media (max-width:414px) {
+    header {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        padding-top: 5px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid gray;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main-wrapper {
+        width: 50%;
+        padding: 5px;
+    }
+
+    .modal-dialog {
+        max-width: 300px;
+        margin: 1.75rem auto;
+    }
+
+    .modal-content {
+        width: 300px;
+        height: 500px;
+    }
+
+    .images img {
+        width: 150px;
+    }
+
+    .texts {
+        padding: 5px;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+    .texts h2 {
+        font-size: 20px;
+    }
+
+    .texts h5 {
+        font-size: 20px;
+    }
+
+    .modal-body {
+        position: relative;
+        flex: 1 1 auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .images {
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* İPHONE SE */
+@media (max-width:375px) {
+    header {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 5px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid gray;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main-wrapper {
+        width: 50%;
+        padding: 5px;
+    }
+
+    .modal-dialog {
+        max-width: 300px;
+        margin: 1.75rem auto;
+    }
+
+    .modal-content {
+        width: 300px;
+        height: 500px;
+    }
+
+    .images img {
+        width: 150px;
+    }
+
+    .texts {
+        padding: 5px;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+    .texts h2 {
+        font-size: 20px;
+    }
+
+    .texts h5 {
+        font-size: 20px;
+    }
+
+    .modal-body {
+        position: relative;
+        flex: 1 1 auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .images {
+        text-align: center;
+    }
+
+}

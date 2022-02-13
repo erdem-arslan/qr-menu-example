@@ -1,0 +1,348 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+main {
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo-wrapper {
+    text-align: center;
+    margin-top: 4.5rem;
+    margin-bottom: 2em;
+}
+
+.logo-wrapper img {
+    width: 100%;
+}
+
+.main-text {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.main-text h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 65px;
+    color: #c97500;
+}
+
+.main-text p {
+    margin: 0;
+    font-size: 2.1em;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.main-button {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.main-button a {
+    font-size: 3.2em;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #c97500bd;
+    color: white;
+}
+
+.mainfooter {
+    text-align: center;
+}
+
+.footer-text p {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: monospace;
+}
+
+.social-ico a {
+    font-size: 50px;
+    margin: 10px;
+}
+
+/* -/-/-/-/-/-/-      1200px     /-/-//-/-/-/-/ */
+@media(max-width:1200px) {
+    main {
+        max-width: 550px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .logo-wrapper {
+        text-align: center;
+        margin-top: 4.5rem;
+        margin-bottom: 2em;
+    }
+
+    .logo-wrapper img {
+        width: 100%;
+    }
+
+    .main-text {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .main-text h2 {
+        margin: 0;
+        padding: 0;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 65px;
+        color: #c97500;
+    }
+
+    .main-text p {
+        margin: 0;
+        font-size: 2.1em;
+        font-family: 'Luxurious Roman', cursive;
+    }
+
+    .main-button {
+        text-align: center;
+        margin-bottom: 90px;
+    }
+
+    .main-button a {
+        font-size: 3.2em;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: #c97500bd;
+        color: white;
+    }
+
+    .mainfooter {
+        text-align: center;
+    }
+
+    .footer-text p {
+        font-size: 30px;
+        margin-bottom: 30px;
+        font-family: monospace;
+    }
+
+    .social-ico a {
+        font-size: 50px;
+        margin: 10px;
+    }
+}
+
+/* İPAD AİR */
+@media(max-width:820px) {
+    main {
+        max-width: 550px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .logo-wrapper {
+        text-align: center;
+        margin-top: 4.5rem;
+        margin-bottom: 2em;
+    }
+
+    .logo-wrapper img {
+        width: 100%;
+    }
+
+    .main-text {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .main-text h2 {
+        margin: 0;
+        padding: 0;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 65px;
+        color: #c97500;
+    }
+
+    .main-text p {
+        margin: 0;
+        font-size: 2.1em;
+        font-family: 'Luxurious Roman', cursive;
+    }
+
+    .main-button {
+        text-align: center;
+        margin-bottom: 90px;
+    }
+
+    .main-button a {
+        font-size: 3.2em;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: #c97500bd;
+        color: white;
+    }
+
+    .mainfooter {
+        text-align: center;
+    }
+
+    .footer-text p {
+        font-size: 30px;
+        margin-bottom: 30px;
+        font-family: monospace;
+    }
+
+    .social-ico a {
+        font-size: 50px;
+        margin: 10px;
+    }
+}
+
+/* İPHONE XR */
+@media(max-width:414px) {
+    main {
+        max-width: 380px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .logo-wrapper {
+        text-align: center;
+        /* margin-top: 4.5rem;
+        margin-bottom: 2em; */
+    }
+
+    .logo-wrapper img {
+        width: 100%;
+    }
+
+    .main-text {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .main-text h2 {
+        margin: 0;
+        padding: 0;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 55px;
+        color: #c97500;
+    }
+
+    .main-text p {
+        margin: 0;
+        font-size: 2em;
+        font-family: 'Luxurious Roman', cursive;
+    }
+
+    .main-button {
+        text-align: center;
+        margin-bottom: 90px;
+    }
+
+    .main-button a {
+        font-size: 2.2em;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: #c97500bd;
+        color: white;
+    }
+
+    .mainfooter {
+        text-align: center;
+    }
+
+    .footer-text p {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-family: monospace;
+    }
+
+    .social-ico a {
+        font-size: 30px;
+        margin: 10px;
+    }
+}
+
+/* iphone SE */
+
+@media(max-width:375px) {
+    main {
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .logo-wrapper {
+        text-align: center;
+        margin:  0;
+        
+    }
+
+    .logo-wrapper img {
+        width: 100%;
+    }
+
+    .main-text {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .main-text h2 {
+        margin: 0;
+        padding: 0;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 35px;
+        color: #c97500;
+    }
+
+    .main-text p {
+        margin: 0;
+        font-size: 1.2em;
+        font-family: 'Luxurious Roman', cursive;
+    }
+
+    .main-button {
+        text-align: center;
+        margin-bottom: 90px;
+    }
+
+    .main-button a {
+        font-size: 1.2em;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: #c97500bd;
+        color: white;
+    }
+
+    .mainfooter {
+        text-align: center;
+    }
+
+    .footer-text p {
+        font-size: 15px;
+        margin-bottom: 0%;
+        font-family: monospace;
+    }
+
+    .social-ico a {
+        font-size: 25px;
+        margin: 2px;
+    }
+}
